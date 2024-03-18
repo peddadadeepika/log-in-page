@@ -1,0 +1,112 @@
+.main{
+    display: flex;
+}h1{
+    color: purple;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+nav{
+   margin-top: 30px;
+   margin-left: 75px;
+}nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(245, 238, 238);
+    position: relative;
+}
+nav a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #0989b8;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav a:hover::after{
+    width: 100%;
+}
+
+input{
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border-color: orange;
+    font-size: 15px;
+    margin-left: 40px;
+}button{
+    height: 35px;
+    width: 100px;
+    background-color: orange;
+    color: rgb(10, 8, 8);
+    border-radius: 10px;
+    border-color: orange;
+}.background{
+    background-image: url("galaxy.jpg");
+    background-repeat: no-repeat;
+}
+.para{
+    margin-left: 20px;
+    margin-top: 100px;
+}.para span{
+    color: orange;
+}.para h1{
+    color: white;
+    font-size: 50px;
+}
+.para p{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}.para button{
+    margin-top: 50px;
+    margin-bottom: 170px;
+    color: black;
+    margin-left: 20px;
+}.body{
+    display: flex;
+}.login{
+    margin-top: 75px;
+    margin-left: 75px;
+    background-color: gray;
+    margin-bottom: 75px;
+    margin-right: 50px;
+    border-radius: 10px;
+}.login button{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 50px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+}.login input{
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 10px;
+
+}.b button{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    color: black;
+}.login p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}.login span{
+    color: orange;
+    margin-left: 25px;
+}.nav{
+    display: flex;
+    
+}
+.nav img{
+    border-radius: 50%;
+    margin-left: 20px;
+}
